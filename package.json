@@ -12,5 +12,8 @@
     "devDependencies": {
         "@biomejs/biome": "^1.9.4",
         "oxlint": "^0.15.11"
+    },
+    "scripts": {
+        "build": "vite build"
     }
 }
