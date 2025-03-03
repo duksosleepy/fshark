@@ -61,8 +61,9 @@
             ".stylelintrc.json",
             ".eslintrc.json",
             "jsconfig.json",
-            "client/vite.config.ts",
-            "eslint.config.js"
+            "client/vite.config.mts",
+            "eslint.config.js",
+            "tailwind.config.mjs"
         ],
         "ignore": [
             "node_modules",
