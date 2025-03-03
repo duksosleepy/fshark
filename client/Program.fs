@@ -1,4 +1,3 @@
-﻿// For more information see https://aka.ms/fsharp-console-apps
-module client
+﻿module App
 
-printfn "Hello from Fable"
+printfn "Fable is up and running..."

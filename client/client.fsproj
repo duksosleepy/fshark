@@ -9,4 +9,8 @@
     <Compile Include="Program.fs" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Fable.Browser.Dom" Version="2.18.1" />
+  </ItemGroup>
+
 </Project>
