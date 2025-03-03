@@ -1,3 +1,4 @@
-﻿module App
-
-printfn "Fable is up and running..."
+﻿open Browser
+let div = document.createElement "div"
+div.innerHTML <- "Hello from F# and Fable!"
+document.body.appendChild div |> ignore

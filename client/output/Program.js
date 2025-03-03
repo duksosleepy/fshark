@@ -1,5 +1,8 @@
-import { printf, toConsole } from "./fable_modules/fable-library-js.4.24.0/String.js";
 
-toConsole(printf("Fable is up and running..."));
+export const div = document.createElement("div");
+
+div.innerHTML = "Hello from F# and Fable!";
+
+document.body.appendChild(div);
 
 //# sourceMappingURL=Program.js.map

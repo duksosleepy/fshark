@@ -1,4 +1,7 @@
-import { printf, toConsole } from "./fable_modules/fable-library-js.4.24.0/String.js";
 
-toConsole(printf("Hello from Fable"));
+export const div = document.createElement("div");
+
+div.innerHTML = "Hello from F# and Fable!";
+
+document.body.appendChild(div);
 

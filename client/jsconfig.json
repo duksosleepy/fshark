@@ -1,0 +1,11 @@
+{
+    "exclude": [
+        "fable_modules"
+    ],
+    "compilerOptions": {
+        "target": "es2022",
+        "module": "ESNext",
+        "allowSyntheticDefaultImports": true,
+        "checkJs": true
+    }
+}
